@@ -28,7 +28,7 @@ public class A
 					e.printStackTrace(); 
 				} 
 			} 
-			return st.nextToken(); 
+			return st.nextToken();
 		} 
 
 		int nextInt() 
