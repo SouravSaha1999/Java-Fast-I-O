@@ -12,7 +12,7 @@ public class A
 
 		public FastReader() 
 		{ 
-			br = new BufferedReader(new	InputStreamReader(System.in)); 
+			br = new BufferedReader(new InputStreamReader(System.in)); 
 		} 
 		
 		String next() 
@@ -43,6 +43,10 @@ public class A
 		{ 
 			return Double.parseDouble(next()); 
 		} 
+		float nextFloat()
+		{
+			return Float.parseFloat(next());
+		}
 
 		String nextLine() 
 		{ 
